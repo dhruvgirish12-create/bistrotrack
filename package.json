@@ -1,0 +1,22 @@
+{
+  "name": "bistrotrack-backend",
+  "version": "2.0.0",
+  "description": "BistroTrack backend API",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "stripe": "^14.0.0",
+    "web-push": "^3.6.6",
+    "nodemailer": "^6.9.7",
+    "node-cron": "^3.0.3"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
